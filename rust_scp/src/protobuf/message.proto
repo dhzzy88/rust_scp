@@ -1,0 +1,9 @@
+syntax = "proto3";
+message senderInfo{
+    int64 size = 10;
+    bool end = 1;
+}
+message receiverInfo{
+    int64 size = 10;
+    buffer
+}

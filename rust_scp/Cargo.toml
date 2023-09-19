@@ -1,0 +1,20 @@
+[package]
+name = "rust_scp"
+version = "1.0.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = { version = "4.3.21", features = ["derive"] }
+tokio = {version= "1.30.0",features = ['full']}
+#protobuf = "3.2.0"
+#protobuf-codegen = "3.2.0"
+bincode = "2.0.0-alpha.2"
+pnet ="0.34.0"
+#[build]
+#target = "x86_64-unknown-linux-musl"
+#
+#[target.x86_64-unknown-linux-musl]
+##rustflags = ["-C", "target-feature=+crt-static"]
+#linker = "x86_64-unknown-linux-musl-gcc"
