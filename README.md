@@ -1,7 +1,8 @@
 # rust_scp
 rust scp tools. 
 
-## 编译 cargo build --relealse
+## 编译 
+cargo build --relealse
 
 ## rust_scp help
 ./rust_scp --help
